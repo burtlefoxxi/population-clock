@@ -35,8 +35,8 @@ function ChangeValue(number, pv) {
 	numberstring = numberstring;
 
 	if (pv == 1) {
-		var births = Math.floor(secondsToday() * 4.2);
-		var deaths = Math.floor(secondsToday() * 1.8);
+		var births = Math.floor(secondsToday() * 0.28);
+		var deaths = Math.floor(secondsToday() * 0.12);
 		document.getElementById('worldpop').innerHTML = numberstring;
 		document.getElementById(
 			'birthstoday'
